@@ -1,6 +1,8 @@
 import torch
 from torch import nn
 from torch.autograd import Variable
+import ctypes
+ctypes.cdll.LoadLibrary('caffe2_nvrtc.dll')
 
 class inception(nn.Module):
 	def __init__(self, input_size, config):

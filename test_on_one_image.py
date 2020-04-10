@@ -66,5 +66,6 @@ def main():
 	# print(new_image)
 	new_image.save(cmd_params.output_image)
 
+
 if __name__ == '__main__':
 	main()
