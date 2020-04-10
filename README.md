@@ -5,8 +5,8 @@ Single-Image Depth Perception in the Wild,
 Neural Information Processing Systems (NIPS).
 
 # Fork
-I fix the issue that casued by version issues between Pytorch 0.3 and 0.4 or higher.
-The pre-trained model `modify.pth` now only have `state_dict` and is adapted to Pytorch 1.4.
+I fix the issue that casued by version issues between Pytorch 0.3 and 0.4 or higher.  
+The pre-trained model `modify.pth` now only have `state_dict` and is adapted to Pytorch 1.4.  
 Use ` python test_on_one_image.py -prev_model_file ../results/modify.pth -input_image ../../data/4.png -output_image ../../data/4-out.png`
 
 # Setup
